@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+ul{
+	list-style:none;
+}
+ul li{
+	border:1px soild black;
+	width:200px;
+	height:300px;
+	text-align:center;
+	padding:5px;
+}
+ul li img{
+	width:130px;
+	height:200px;
+	margin-top:20px;
+}
+ul li:hover{
+	background-color: rgba(0, 0, 0, 0.171);
+}
+
+</style>
+</head>
+
+<body>
+
+	<ul>
+		<li>
+			<img src="image/book.jpg" alt="속성">
+			<p class="bookname">풀꽃</p>
+			<p class="bookprice">10,000</p>
+		</li>
+	</ul>
+</body>
+</html>

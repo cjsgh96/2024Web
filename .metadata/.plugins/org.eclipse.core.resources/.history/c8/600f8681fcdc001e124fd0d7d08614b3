@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<%
+
+request.setCharacterEncoding("utf-8");
+
+String id = request.getParameter("id");
+String pw = request.getParameter("pw");
+String name = request.getParameter("name");
+
+out.println(id+pw+name);
+
+//데이터 베이스 연동
+
+//
+// response.sendRedirect(location)
+
+%>

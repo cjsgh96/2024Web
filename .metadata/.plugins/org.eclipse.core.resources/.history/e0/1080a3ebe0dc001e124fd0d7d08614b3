@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<header>
+<h2>HY대학교 수강신청 프로그램</h2>
+</header>
+<nav>
+<a>메뉴1</a>
+<a>메뉴2</a>
+<a>메뉴3</a>
+<a>메뉴4</a>
+</nav>
+
+<h3>에이콘 학생조회</h3>
+<table>
+<tr>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</table>
+
+<footer>
+
+</footer>
+</body>
+</html>

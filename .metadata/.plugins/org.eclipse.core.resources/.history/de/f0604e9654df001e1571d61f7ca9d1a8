@@ -1,0 +1,32 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+<%
+request.setCharacterEncoding("utf-8");
+
+String ticket_id =request.getParameter("ticket_id");
+String ticket_type =request.getParameter("ticket_type");
+String ticket_time =request.getParameter("ticket_time");
+String ticket_age =request.getParameter("ticket_age");
+String ticket_price =request.getParameter("ticket_price");
+
+%>
+
+<header> <h2> 구매 상세 페이지</h2></header>
+
+
+<input type="text" vlaue="<%=ticket_id%>">
+<input type="text" vlaue="<%=ticket_type%>">
+<input type="text" vlaue="<%=ticket_time%>">
+<input type="text" vlaue="<%=ticket_age%>">
+<input type="text" vlaue="<%=ticket_price%>">
+
+
+</body>
+</html>

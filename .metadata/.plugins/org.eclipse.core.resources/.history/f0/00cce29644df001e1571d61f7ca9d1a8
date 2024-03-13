@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<style>
+.wrap{
+	border:1px solid black;
+	width:500px;
+	height:500px;
+}
+</style>
+<body>
+
+
+<div class="wrap">
+	<div class="img_wrap">이미지</div>
+	<div class="login_wrap">로그인</div>
+</div>
+
+</body>
+</html>

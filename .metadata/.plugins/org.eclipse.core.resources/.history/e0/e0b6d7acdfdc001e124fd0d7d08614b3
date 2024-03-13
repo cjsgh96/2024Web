@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+
+<form action="radioAction.jsp" method="post">
+
+<input type="radio" name="gender" value="W">여성 <!--  name 은 담을 상자의 주소 value는 상자에 담길 물건 -->
+<input type="radio" name="gender" value="M">남성
+<button>전송</button>
+
+</form>
+
+</body>
+</html>

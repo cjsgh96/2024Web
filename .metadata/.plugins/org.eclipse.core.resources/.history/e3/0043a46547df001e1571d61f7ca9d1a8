@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style>
+.wrap{
+	border:1px solid black;
+	width:500px;
+	height:500px;
+	margin:0 auto;
+	margin-top:150px;
+	padding:35px;
+}
+.img_wrap{
+	
+	border:1px solid black;
+	height:230px;
+	margin-bottom: 10px;
+}
+.login_wrap{
+	border:1px solid black;
+	height:100px;
+}
+div input {
+	width:30%;
+	height:30px;
+	
+}
+
+</style>
+<script>
+function check(){
+	
+	
+	let frm = document.frm;
+	
+	let id = document.id.value;
+	let pw = document.pw.value;
+	
+	if(id==""){
+		alert("ID를 입력해 주세요");
+		frm.id.focus();
+	}else if(pw==""){
+		alert("패스워드를 입력해 주세요");	
+		frm.pw.focus();
+	}else{
+		
+		frm.submit();
+	}
+		
+		
+	
+	
+}
+
+</script>
+
+</head>
+
+
+<body>
+
+<form name="frm" action="main.jsp" method="post">
+	<div class="wrap">
+		<div class="img_wrap"></div>
+		<div class="login_wrap">
+		<input type="text" placeholder="ID" name="id" class="id">
+		<input type="text" placeholder="PW" name="pw" class="pw">
+		<button type="button" onclick="check()">로그인</button>
+		</div>
+	</div>
+</form>
+</body>
+</html>

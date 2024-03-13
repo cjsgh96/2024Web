@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<style>
+ul{
+	list-style:none;
+}
+ul li{
+	width:200px;
+	height:300px;
+	border:1px soild black;
+}
+</style>
+</head>
+
+<body>
+
+	<ul>
+		<li>
+			<img src="지구문고/book.jpg" alt="속성">
+		</li>
+	</ul>
+</body>
+</html>

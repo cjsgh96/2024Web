@@ -1,0 +1,57 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<style>
+header{
+	border:1px solid black;
+	height:100px;
+}
+h2{
+	text-align:center;
+}
+nav{
+	border:1px solid black;
+	margin-bottom:20px;
+}
+table{
+	border:1px solid black;
+	margin:0 auto;
+}
+ul li{
+	list-style:none;
+}
+</style>
+
+</head>
+<body>
+
+<header><h2>항공권 조회 프로그램</h2></header>
+<nav>
+	<ul>
+		<li><a href="#">구매조회</li>
+	</ul>
+</nav>
+
+<table>
+	<tr>
+		<td>티켓번호</td>
+		<td>좌석등급</td>
+		<td>출발시간</td>
+		<td>연령</td>
+		<td>가격</td>
+	</tr>
+	
+		<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>
+</table>
+</body>
+</html>

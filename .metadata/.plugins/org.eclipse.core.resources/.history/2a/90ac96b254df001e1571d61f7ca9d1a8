@@ -1,0 +1,43 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script>
+let frm = document.frm;
+	frm.ticket_id.value="<%=ticket_id.value="<%=ticket_id%>"; 
+	frm.ticket_type.value="<%=ticket_type.value="<%=ticket_type%>"; 
+	frm.ticket_time.value="<%=ticket_time.value="<%=ticket_time%>"; 
+	frm.ticket_age.value="<%=ticket_age.value="<%=ticket_age%>"; 
+	frm.ticket_price.value="<%=ticket_price.value="<%=ticket_price%>"; 
+	
+
+</script>
+</head>
+<body>
+<%
+request.setCharacterEncoding("utf-8");
+
+String ticket_id =request.getParameter("ticket_id");
+String ticket_type =request.getParameter("ticket_type");
+String ticket_time =request.getParameter("ticket_time");
+String ticket_age =request.getParameter("ticket_age");
+String ticket_price =request.getParameter("ticket_price");
+
+%>
+
+<header> <h2> 구매 상세 페이지</h2></header>
+
+<form name="frm">
+	<input type="text" name="ticket_id" vlaue="">
+	<input type="text" name="ticket_type" vlaue="">
+	<input type="text" name="ticket_time" vlaue="">
+	<input type="text" name="ticket_age" vlaue="">
+	<input type="text" name="ticket_price" vlaue="">
+	
+</form>
+
+</body>
+</html>

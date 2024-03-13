@@ -1,0 +1,7 @@
+package day7;
+
+import javax.servlet.http.HttpServlet;
+
+public class AcornOneServelet extends HttpServlet {
+
+}

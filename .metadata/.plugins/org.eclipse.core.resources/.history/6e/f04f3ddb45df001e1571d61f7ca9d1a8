@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<style>
+.wrap{
+	border:1px solid black;
+	width:500px;
+	height:500px;
+	margin:0 auto;
+	margin-top:150px;
+	padding:35px;
+}
+.img_wrap{
+	
+	border:1px solid black;
+	height:230px;
+	margin-bottom: 10px;
+}
+.login_wrap{
+	border:1px solid black;
+	height:100px;
+}
+div input {
+	width:30%;
+	height:30px;
+	
+}
+
+
+</style>
+<body>
+
+
+<div class="wrap">
+	<div class="img_wrap">이미지</div>
+	<div class="login_wrap">
+	<input type="text" placeholder="ID" name="id" class="id">
+	<input type="text" placeholder="PW" name="pw" class="pw">
+	<button>로그인</button>
+	</div>
+</div>
+
+</body>
+</html>
