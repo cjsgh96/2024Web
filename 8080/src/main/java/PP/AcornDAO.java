@@ -59,25 +59,11 @@ public class AcornDAO {
 				
 				list.add(acorn);
 			}
-			
-			
-			
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		} 
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		return null;
-		
+		return list;
 	}
 	
 }
